@@ -7,6 +7,7 @@ include: "matching_columns.view.lkml"
 include: "possible_keys.view.lkml"
 include: "tables.*"
 include: "columns_basic.*"
+include: "columns.*"
 include: "parameterized_table_profile.*"
 include: "parameterized_sample_rows.*"
 include: "table_column_stats.view"
@@ -103,3 +104,5 @@ explore: columns_basic {}
 # explore: tables {}
 # explore: columns_basic {}
 # #####
+
+explore: columns {}
